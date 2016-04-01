@@ -56,8 +56,13 @@ class LAEventScraper(EventScraper, LXMLMixin):
         if re.search(r'(?i)\d[AP]M$', time):
             time = time[:-2] + " " + time[-2:]
 
-        if "UPON ADJ" in ' '.join(time.split()).upper():
+        time_str = ' '.join(time.split()).upper()
+
+        if "UPON ADJ" in time_str:
             all_day = True
+            when = datetime.datetime.strptime(date, "%B %d, %Y")
+        elif "TBA" in time_str:
+            all_day = False
             when = datetime.datetime.strptime(date, "%B %d, %Y")
         else:
             all_day = False
