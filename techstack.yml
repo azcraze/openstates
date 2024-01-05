@@ -2,7 +2,7 @@ repo_name: azcraze/openstates
 report_id: 8066b69baac707b8c263e3b5890ec4fa
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-01T17:34:57+00:00'
+timestamp: '2024-01-05T08:13:14+00:00'
 requested_by: crdunwel
 provider: github
 branch: master
@@ -16,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/azcraze/openstates
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -26,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/azcraze/openstates
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -36,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/azcraze/openstates
   detection_source: Repo Metadata
 - name: R Language
   description: A language and environment for statistical computing and graphics
@@ -45,6 +48,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1213/r-logo.png
+  detection_source_url: https://github.com/azcraze/openstates
   detection_source: Repo Metadata
 - name: MSSQL
   description: It is an enterprise-level database system that is very popular for
@@ -55,6 +59,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/2445/ZKsJsucq_400x400.jpg
+  detection_source_url: https://github.com/azcraze/openstates/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Tim Showers
   last_updated_on: 2016-04-29 20:29:24.000000000 Z
@@ -66,6 +71,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/azcraze/openstates/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: James Turk
   last_updated_on: 2012-05-25 03:32:17.000000000 Z
@@ -92,6 +98,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/azcraze/openstates
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -101,6 +108,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/azcraze/openstates
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -110,6 +118,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/azcraze/openstates/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: James Turk
   last_updated_on: 2011-09-23 01:32:58.000000000 Z
@@ -122,6 +131,7 @@ tools:
   category: Libraries
   sub_category: Data Science Tools
   image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/azcraze/openstates/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: James Turk
   last_updated_on: 2011-09-23 01:32:58.000000000 Z
@@ -134,6 +144,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/azcraze/openstates
   detection_source: Repo Metadata
 - name: cffi
   description: Foreign Function Interface for Python calling C code
@@ -144,6 +155,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19909/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/azcraze/openstates/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Andy Lo
   last_updated_on: 2016-05-11 03:38:48.000000000 Z
@@ -156,6 +168,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19856/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/azcraze/openstates/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Rachel Shorey
   last_updated_on: 2015-02-06 16:50:37.000000000 Z
@@ -168,6 +181,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20147/default_a55249b25c76872ebbee6b173a63c5fce36136f9.png
+  detection_source_url: https://github.com/azcraze/openstates/blob/master/experimental/bathawk/requirements.txt
   detection_source: experimental/bathawk/requirements.txt
   last_updated_by: Thom Neale
   last_updated_on: 2012-09-07 14:23:44.000000000 Z
@@ -266,6 +280,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/azcraze/openstates/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: James Turk
   last_updated_on: 2011-09-23 01:32:58.000000000 Z
@@ -278,6 +293,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19963/default_61e35171bd9c0e5c5b88b2e4221ca242576ad8c0.png
+  detection_source_url: https://github.com/azcraze/openstates/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: James Turk
   last_updated_on: 2011-09-23 01:32:58.000000000 Z
@@ -290,6 +306,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20182/default_3d320a0aa731f16ceb0e7b6999ca7f7cd784aee2.png
+  detection_source_url: https://github.com/azcraze/openstates/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: James Turk
   last_updated_on: 2012-05-25 03:32:17.000000000 Z
